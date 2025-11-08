@@ -1,0 +1,22 @@
+{
+  "name": "calculadora-pruebas",
+  "version": "1.0.0",
+  "description": "Pruebas unitarias de caja blanca para una calculadora básica",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "jest",
+    "test:caja-blanca": "jest calculadora.test.js",
+    "test:caja-negra": "jest calculadora.caja-negra.test.js",
+    "test:biblioteca": "jest biblioteca.test.js"
+  },
+  "keywords": [
+    "pruebas",
+    "jest",
+    "caja blanca"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
